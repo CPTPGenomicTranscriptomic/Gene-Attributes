@@ -26,7 +26,7 @@ if (!require("shiny")){install.packages("shiny")}
 
 Start an R session using RStudio and run this line:  
 ```
-shiny::runGitHub("Gene-Attributes", "mlebeur")
+shiny::runGitHub("Gene-Attributes", "CPTPGenomicTranscriptomic")
 ```
 This command will download the code of Gene-Attributes from GitHub to a temporary directory of your computer and then launch the Gene-Attributes app in the web browser. Once the web browser was closed, the downloaded code of Gene-Attributes would be deleted from your computer. Next time when you run this command in RStudio, it will download the source code of Gene-Attributes from GitHub to a temporary directory again. 
 
@@ -78,4 +78,4 @@ The button will download the annotated output file that you are looking at.
 
 The webpage should look like this!
 
-![alt text](https://github.com/mlebeur/Gene-Attributes/blob/master/Gene-Attributes_interface.png)
+![alt text](https://github.com/CPTPGenomicTranscriptomic/Gene-Attributes/blob/master/Gene-Attributes_interface.png)
