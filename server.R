@@ -43,7 +43,7 @@ server <- function(input, output) {
     withProgress(message = 'In progress:', value = 0, {
       incProgress(1/4, detail = paste("Reading input file:", file2$name))
       # read input genes
-      data1 <- data.frame(read.table(file2$datapath, stringsAsFactors = F, header=T))
+      data1 <- data.frame(read.delim(file2$datapath, stringsAsFactors = F, header=T))
 
       # determine species
       if (input$species == 1) {
